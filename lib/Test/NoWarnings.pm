@@ -172,7 +172,7 @@ For scripts that use L<done_testing|Test::More/done_testing>, use:
 In general, your tests shouldn't produce warnings. This modules causes any
 warnings to be captured and stored. It automatically adds an extra test that
 will run when your script ends to check that there were no warnings. If
-there were any warings, the test will give a "not ok" and diagnostics of
+there were any warnings, the test will give a "not ok" and diagnostics of
 where, when and what the warning was, including a stack trace of what was
 going on when the it occurred.
 
