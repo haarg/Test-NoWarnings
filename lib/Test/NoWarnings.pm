@@ -143,6 +143,7 @@ Test::NoWarnings - Make sure you didn't emit any warnings while testing
 
 For scripts that have no plan
 
+  use Test::More 'no_plan';
   use Test::NoWarnings;
 
 that's it, you don't need to do anything else
