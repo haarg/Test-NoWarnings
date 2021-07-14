@@ -8,7 +8,7 @@ use Exporter                  ();
 use Test::Builder             ();
 use Test::NoWarnings::Warning ();
 
-use vars qw( $VERSION @EXPORT_OK @ISA $do_end_test );
+our ( $VERSION, @EXPORT_OK, @ISA, $do_end_test );
 BEGIN {
     $VERSION   = '1.04';
     @ISA       = 'Exporter';

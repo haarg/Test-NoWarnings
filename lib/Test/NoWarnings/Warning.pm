@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use Carp ();
 
-use vars qw{$VERSION};
+our $VERSION;
 BEGIN {
     $VERSION = '1.04';
 
