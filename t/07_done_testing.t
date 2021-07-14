@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 use strict;
 use Test::More;
 use Test::NoWarnings 'had_no_warnings';

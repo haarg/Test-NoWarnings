@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 use strict;
 use Test::Tester;
 use Test::More tests => 6;
