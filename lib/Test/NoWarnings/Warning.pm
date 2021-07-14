@@ -9,7 +9,7 @@ BEGIN {
     $VERSION = '1.04';
 
     # Optional stacktrace support
-    eval "require Devel::StackTrace";
+    eval { require Devel::StackTrace };
 }
 
 sub new {

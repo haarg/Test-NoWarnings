@@ -52,9 +52,9 @@ SCOPE: {
     like($carp[$base+2], '/main::a/', "carp level a");
 
     SKIP: {
-        my $has_st = eval "require Devel::StackTrace" || 0;
+        eval { require Devel::StackTrace }
+          or skip("Devel::StackTrace not installed", 1);
 
-        skip("Devel::StackTrace not installed", 1) unless $has_st;
         isa_ok($warn->getTrace, "Devel::StackTrace");
     }
 }
