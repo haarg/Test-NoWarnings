@@ -1,4 +1,5 @@
 use strict;
+use warnings;
 use Test::Tester;
 use Test::More qw(no_plan);
 use Test::NoWarnings qw( had_no_warnings warnings clear_warnings );

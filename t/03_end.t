@@ -1,4 +1,5 @@
 use strict;
+use warnings;
 use Test::Tester;
 use Test::More tests => 6;
 

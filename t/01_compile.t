@@ -1,8 +1,5 @@
 use strict;
-BEGIN {
-    $| = 1;
-    $^W = 1;
-}
+use warnings;
 
 use Test::More tests => 4;
 
