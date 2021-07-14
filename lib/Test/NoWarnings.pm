@@ -316,6 +316,11 @@ Get the name of the test that executed before the warning was emitted.
 When counting your tests for the plan, don't forget to include the test that
 runs automatically when your script ends.
 
+Checking for warnings is done using L<< C<$SIG{__WARN__}>|perlvar/%SIG >>.
+If other modules use this hook, it can interfere with this module's operation.
+For example, using the L<Carp::Always> module will cause this module to always
+report no warnings.
+
 =head1 SUPPORT
 
 Bugs should be reported via the CPAN bug tracker at
