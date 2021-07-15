@@ -17,7 +17,7 @@ my %META = (
     },
     runtime => {
       requires => {
-        perl => '5.006',
+        'perl'          => '5.006',
         'Test::Builder' => '0.86',
       },
     },
