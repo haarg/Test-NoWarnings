@@ -1,5 +1,6 @@
 Changes for Perl extension Test-NoWarnings
 
+1.05_01 - 2021-07-15
     - clarify docs around tests without a plan
     - documentation cleanups and typo fixes
     - minor code cleanups
