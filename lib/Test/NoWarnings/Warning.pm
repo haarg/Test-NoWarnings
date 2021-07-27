@@ -6,7 +6,7 @@ use Carp ();
 
 our $VERSION;
 BEGIN {
-    $VERSION = '1.05_01';
+    $VERSION = '1.06';
 
     # Optional stacktrace support
     eval { require Devel::StackTrace };
