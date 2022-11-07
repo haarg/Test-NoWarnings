@@ -321,6 +321,9 @@ If other modules use this hook, it can interfere with this module's operation.
 For example, using the L<Carp::Always> module will cause this module to always
 report no warnings.
 
+Testing via this module is possible when using L<Test::More> or other L<Test::Builder>
+or L<Test2> based testing modules. e.g. L<Test> doesn't work.
+
 =head1 SUPPORT
 
 Bugs should be reported via the CPAN bug tracker at
